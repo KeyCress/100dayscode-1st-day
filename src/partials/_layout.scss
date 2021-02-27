@@ -2,7 +2,15 @@
 
 .testimonials-container {
 	margin: 0 auto;
+
+    & > * + * {
+        margin-top: 1rem;
+    }
 }
+
+
+
+
 
 // BASIC CARD COMPONENT //
 
@@ -22,8 +30,11 @@
     }
 
     &__review {
-        margin-bottom: 1.5rem;
+        margin-bottom: 1rem;
+        font-size: 1.5rem;
     }
+
+    
 }
 
 
@@ -37,4 +48,31 @@
     align-items: center;
     gap: 1rem;
     margin-bottom: 1rem;
+}
+
+
+
+
+// VIOLET CARD //
+
+.testimonial--violet {
+    background-color: var(--clr-violet);
+    background-image: url(/100dayscode-1st-day/images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: top right 2rem;
+    
+}
+
+
+// GRAY CARD //
+
+.testimonial--gray {
+    background-color: var(--clr-dark-gray-blue);
+}
+
+
+// DARK BLUE CARD //
+
+.testimonial--dark-blue {
+    background-color: var(--clr-dark-black-blue);
 }

@@ -2,6 +2,24 @@
     color: var(--clr-white);
 }
 
-.clr-dark-black-blue {
-    color: var(--clr-dark-black-blue);
+.clr-white-status {
+    color: hsla(0, 0%, 100%, 0.5);
 }
+
+.clr-white-par {
+    color: hsl(0, 0%, 100%, 0.7);
+}
+
+
+.clr-gray-blue {
+    color: var(--clr-dark-gray-blue);
+}
+
+.clr-gray-blue-status {
+    color: var(--clr-dark-gray-blue);
+}
+
+.clr-gray-blue-par {
+    color: var(--clr-dark-gray-blue);
+}
+
