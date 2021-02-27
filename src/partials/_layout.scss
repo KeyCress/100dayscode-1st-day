@@ -1,7 +1,7 @@
 // TESTIMONIAL CONTAINER //
 
 .testimonials-container {
-	
+	margin: 0 auto;
 }
 
 // BASIC CARD COMPONENT //
@@ -9,4 +9,32 @@
 .testimonial {
     -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
 	box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+
+    padding: 2rem;
+    border-radius: .7rem;
+
+
+
+
+    &__img {
+        border-radius: 50%;
+        height: 35px;
+    }
+
+    &__review {
+        margin-bottom: 1.5rem;
+    }
+}
+
+
+
+
+
+    // User flexbox //
+
+.testimonial-flex-container {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 1rem;
 }

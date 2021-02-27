@@ -106,9 +106,29 @@ body {
   color: var(--clr-dark-black-blue);
 }
 
+.testimonials-container {
+  margin: 0 auto;
+}
+
 .testimonial {
   -webkit-box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
   box-shadow: 5px 5px 15px 5px rgba(0, 0, 0, 0.12);
+  padding: 2rem;
+  border-radius: 0.7rem;
+}
+.testimonial__img {
+  border-radius: 50%;
+  height: 35px;
+}
+.testimonial__review {
+  margin-bottom: 1.5rem;
+}
+
+.testimonial-flex-container {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
 }
 
 /*# sourceMappingURL=main.css.map */
